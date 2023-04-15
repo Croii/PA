@@ -9,7 +9,6 @@ typedef struct Elem{
 	struct Elem *next;
 } Node;
 
-
 void addAtBeginning(Node **head, Data v);
 void addAtEnd(Node** head, Data v);
 void display(Node *head);

@@ -23,7 +23,7 @@ void addAtEnd(Node **head, Data v)
     Node *newNode = (Node *)malloc(sizeof(Node));
     newNode->val = v;
     if (*head == NULL)
-        addAtBeginning(&*head, v);
+        addAtBeginning(head, v);
     else
     {
         while (aux->next != NULL)
